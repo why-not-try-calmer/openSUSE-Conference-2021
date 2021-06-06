@@ -1,6 +1,19 @@
-__NB: Italicized text like this is not supposed to appear on the slides. It refers to what I want to say orally in more details.__
+---
+theme: default
+class: 'text-center'
+highlighter: shiki
+info: |
+  ## Slidev Starter Template
+  Presentation slides for developers.
+
+  Learn more at [Sli.dev](https://sli.dev)
 
 ---
+
+# openSUSE docs: Tame the beast, make it a friend
+
+---
+
 # Who we are
 
 Adrien: 
@@ -100,6 +113,7 @@ But they have perhaps even more issues about best-practices:
 * Should I use zypper or Yast? zypper or dnf? tool X or Y?
 
 These best-practice questions stem from:
+
 * the conceptual differences between fixed-point and rolling- release
 * the specifics of selection of tools at the core of the openSUSE experience (zypper / snapper / yast / obs)
 * questioning the defaults ("vendor stickiness", snapper config defaults, zypper config defaults -- no autorefresh)
