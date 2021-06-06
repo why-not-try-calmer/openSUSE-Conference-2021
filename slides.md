@@ -5,7 +5,7 @@ __NB: Italicized text like this is not supposed to appear on the slides. It refe
 
 Adrien: 
 * lives in Switzerland
-* hopefully soon a PhD in something to do with concepts and linguistics
+* ~90% of PhD in something to do with concepts and linguistics
 * Python and Haskell fanboy
 
 Attila:
@@ -36,11 +36,13 @@ __NB: Context differences between the person supporting and the supported person
 
 ## Being lazy together
 
-*Being lazy*. Writing, building, shipping, exploring, configuring software takes time and energy.
+*Being lazy*. 
+* when someone finds oneself scratching their head in front of an already solved problem, there is potential waste. 
+* the time and energy spent scratching their head is spent twice.
 
-Everytime someone in the Universe finds oneself scratching their head in front of a problem already solved, there is potential waste. the time and energy spent scratching their head is spent twice, we it could have been spent once.
-
-*Together*. The waste scales immensely when you have a large community like openSUSE, and creates inequalities: if you are not lucky enough to talk to the most knowledgeable people (think of separate linguistic communities), you are worse off everybody else who are luckier than you.
+*Together*. 
+* the waste scales immensely when you have a large community like openSUSE
+* it also does not help with inequalities: if you are not lucky enough to talk to the most knowledgeable people (think of separate linguistic communities), you are worse off everybody else who are lucky enough to know someone who can help.
 
 ---
 
@@ -60,37 +62,44 @@ What's in there for people interested in TW?
 
 Absence of visible maintainership means that truth is contamined with incertainty.
 
-You cannot tell apart the up-to-date, factually correct and recommended parts from the part which aren't. So the user has no rational option but to try and pray. (Or just use Fedora or Ubuntu)
+How to tell up-to-date and factually correct from outdated or incorrect? 
 
-Wikis work only when you can honour the promise to your users that there is maintainership behind the curtains. (Wikipedia pay people, Arch uses wiki categories as GitHub repositories)
+__NB: You cannot tell apart up-to-date + factually correct and recommended parts from the part which aren't. So the user has no rational option but to try and pray. (Or just use Fedora or Ubuntu)__
+
+Wikis work just like GitHub repos: when you can honour the promise to your users that there is maintainership behind the curtains.
+
+__NB: Wikipedia pay people, Arch uses wiki categories as GitHub repositories__
+
+We are just making this explicit, by using a GitHub repo. 
 
 ---
 
-# What do you want to document, again? The facts
+# What do you want to document, again? (1/2)
 
-Most people interested in an openSUSE distribution have factual issues:
+People interested in an openSUSE distribution have factual issues:
 
 * "Should I pick X or Y in the installer" if I want to do Z?"
 * (I am booting to a black screen). How to use an Nvidia + some other GPU?
 * How to get software X?
 * How to update / upgrade?
 
-We have a lot of special cases of these for TW:
+Many are special cases of these for TW:
+
 * How to create snapshots and to roll back from them?
 * How to hook to third-party repositories
 * How to keep my kernel-dependent software X across Tumbleweed snapshots?
 
 ---
 
-# What do you want to document, again? The recommended
+# What do you want to document, again? (2/2)
 
-But they have perhaps even more issues about best-practice:
+But they have perhaps even more issues about best-practices:
 
 * How often should I update?
 * How should I solve conflicts between dependencies?
-* Should I use zypper or Yast? zypper or dnf?
+* Should I use zypper or Yast? zypper or dnf? tool X or Y?
 
-Generally speaking, the gamut of best-practice questions people have about TW is determined by:
+These best-practice questions stem from:
 * the conceptual differences between fixed-point and rolling- release
 * the specifics of selection of tools at the core of the openSUSE experience (zypper / snapper / yast / obs)
 * questioning the defaults ("vendor stickiness", snapper config defaults, zypper config defaults -- no autorefresh)
@@ -98,4 +107,10 @@ Generally speaking, the gamut of best-practice questions people have about TW is
 * "confort" improvements (zstd compression by default, pipewire, dnf)
 * trends and fashion
 
-So documenting TW cannot do away with recommendations. People are entitled to know how to best mutate their system in a sustainable way.
+---
+
+# So documenting TW cannot do away with recommendations:
+
+* the more people know, the more they're pushing their system and questioning the defaults, until their questions cannot be met only on the basis of technical facts
+* openSUSE and TW in particular are appealing to people eager to learn and tinker with their system, so a good docs is required to honour the implicit promise that the risks associated with the rolling-release workflow are worth taking.
+
