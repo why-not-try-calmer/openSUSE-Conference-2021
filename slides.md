@@ -12,7 +12,7 @@ info: |
 
 # openSUSE docs: Tame the beast, make it a friend
 
-<img border="rounded" src="ad.jpg" style="height:25%; width:25%; margin-left: 11em" />Adrien Glauser (nycticorax@opensuse.org)
+<img border="rounded" src="ad.jpg" style="height:25%; width:25%; margin-left: 11em" />__Adrien Glauser (nycticorax@opensuse.org)__ &
 __Attila Pinter (adathor@prontonmail.com)__
 
 ---
