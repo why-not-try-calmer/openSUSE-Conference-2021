@@ -47,7 +47,7 @@ Adrien:
 * following a single conversation can be taxing (imagine following multiple in parallel).
 * even forums are not that discoverable, and information is fragmented
 
-__NB: Context differences between the person supporting and the supported person are difficult to detect and capture in a live conversation. Good documentation makes context explicit. Will come back to that later__
+__Context differences between the person supporting and the supported person are difficult to detect and capture in a live conversation. Good documentation makes context *especially assumptions* explicit. Will come back to that later__
 
 ---
 
@@ -72,23 +72,23 @@ The official Leap reference manuals?
 
 The openSUSE wikis, especially the SDB?
 
-* not bad, but there is no explicit and visible curation, so you cannot trust anything, because you don't know who's vouching for what you read. 
+* not bad, but there is no explicit and visible maintainership, so you cannot trust anything, because you don't know who's vouching for what you read.
 
 ---
 
 # Why wikis are usually not great for important things that need updating
 
-Absence of visible maintainership means that truth is contamined with incertainty.
+Absence of visible maintainership means that truth is contaminated with uncertainty.
 
 How to tell up-to-date and factually correct from outdated or incorrect? 
 
-__NB: You cannot tell apart up-to-date + factually correct and recommended parts from the part which aren't. So the user has no rational option but to try and pray. (Or just use Fedora or Ubuntu)__
+__You cannot tell apart up-to-date + factually correct and recommended parts from the part which aren't. So the user has no rational option but to try and pray. (Or just use Fedora or Ubuntu)__
 
-Wikis work just like GitHub repos: when you can honour the promise to your users that there is maintainership behind the curtains.
+Wikis work just like GitHub repositories: when you can honor the implicit contract with the user that contents are curated and maintained.
 
 __NB: Wikipedia pay people, Arch uses wiki categories as GitHub repositories__
 
-We are just making this explicit, by using a GitHub repo. 
+We are just making this explicit, by using a GitHub repositories.
 
 ---
 
@@ -104,7 +104,7 @@ People interested in an openSUSE distribution have factual issues:
 Many special cases of these for TW:
 
 * How to create snapshots and to roll back from them?
-* How to hook to third-party repositories
+* How to add third-party repositories
 * How to keep my kernel-dependent software X across Tumbleweed snapshots?
 
 ---
@@ -123,15 +123,15 @@ These "best-practice" questions stem from:
 * the specifics of selection of tools at the core of the openSUSE experience (zypper / snapper / yast / obs)
 * questioning the defaults ("vendor stickiness", snapper config defaults, zypper config defaults -- no autorefresh)
 * the developments of software underlying or gradually integrated to a bleeding edge distribution
-* "confort" improvements (zstd compression by default, pipewire, dnf)
+* "comfort" improvements (zstd compression by default, pipewire, dnf)
 * trends and fashion
 
 ---
 
-# So documenting TW cannot do away with recommendations:
+# Thus documenting Tumbleweed cannot do away with recommendations:
 
-* the more people know, the more they're pushing their system and questioning the defaults, until their questions cannot be met only on the basis of technical facts
-* openSUSE and TW in particular are appealing to people eager to learn and tinker with their system, so a good docs is required to honour the implicit promise that the risks associated with the rolling-release workflow are worth taking.
+* the more people know, the more they're pushing their system and questioning the defaults, until their questions cannot be met only on technical facts
+* openSUSE and Tumbleweed in particular are appealing to people eager to learn and tinker with their system, so good docs are required to honor this implicit promise: __the risks inherent to the rolling-release model are worth taking__.
 
 ---
 
@@ -141,3 +141,58 @@ These "best-practice" questions stem from:
 * the goal is to have the 9 first sections of the table of contents covered by the end of late summer 2021: 
     * https://github.com/openSUSE/openSUSE-docs-revamped-temp/blob/dev/ToC.md
 * we have about 6 done already, but we are slightly beyond schedule
+* why? are we just lazy and incompetent?
+
+---
+
+# The docs writer's debt
+
+## Redundancies
+
+* cherry-picked example: setting up offload to an Nvidia GPU
+    * Leap official documentation: https://doc.opensuse.org/documentation/leap/reference/single-html/book-reference/index.html#sec-gui-desktop-suse-prime
+    * openSUSE wikis (SDB): https://en.opensuse.org/SDB:NVIDIA_SUSE_Prime
+    * but also, forums: https://forums.opensuse.org/
+    * not to forget a friendly gecko at: https://opensuse-guide.org/3d.php
+* too many sources, giving similar but slightly different tips, published at different times
+* we don't want to control what third-parties say about our beloved distribution, so we have to either work with them or compete with them
+* we cannot compete with them unless we present a single source of truth (and recommendations!) to the user -- which means removing redundancies
+* which means deleting the works of others unless they can be quickly identified and agree to merge their contents with ours
+
+---
+
+## Meeting our own reviewing ambitions
+
+* our reviewing process: on a new submission review
+1. struct. & contents #1
+2. language., style and punctuation #1 ->
+3. struct. & contents #2
+4. language., style and punctuation #2
+
+* (1) happens entirely in-house; however
+* for (2) and (3) we try to get more experienced and knowledgeable contributors (developers or maintainers)
+* but even though those will usually be flawless as far as technical facts, they might not always feel easy about making recommendations or have time to explore recent use cases so as to make an informed recommendation
+* we are working on the docs at a time where there is no tradition of such a reviewing process to hook onto!
+
+---
+
+## Floating complex, integrated tech stacks boat on fragmented waters
+
+* Yast2, zypper, snapper -- those are at the core of the openSUSE user experience, and quite neatly integrated with the operating systems
+* but there is a mismatch between the level of integration of these tools and the level of integration / coordination of the people maintaining them
+* not a criticism: it's bound to happen in a world where you need to specialize
+* what would help would be specific time windows or places where potential reviewers can be identified and invited to reviewing
+
+---
+
+# Silver linings in sight!
+
+* openSUSE Heroes are the grease between the cogs of the infrastructure
+* openSUSE docs folks are the pumps pushing know-how and best-practices towards current and future users
+* doing it is a blessing, and so is benefiting from it:
+    * learning by teaching complements learning by doing
+    * relieving user support means more people for contributing in other areas
+        * check out how the docs bot allows us to avoid repetitions
+    * writing and integrating documentation is easy to reference and take advantage of in a curriculum
+    * ultimately the docs is a precious navigational instrument: it helps a community know where it's heading and helps it remember where it comes from because it embodies a particular history and tradition
+    * used in conjunction with good feedback mechanisms (like end of the year surveys ;P) it makes for one of the most beautiful place you can contribute in openSUSE.
