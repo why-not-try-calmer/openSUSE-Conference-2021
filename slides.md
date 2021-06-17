@@ -12,7 +12,8 @@ info: |
 
 # openSUSE docs: Tame the beast, make it a friend
 
-__NB: Italicitzed text is not meant to feature on the slides. Just helpers for preparing__
+<img border="rounded" src="ad.jpg" style="height:25%; width:25%; margin-left: 11em" />Adrien Glauser (nycticorax@opensuse.org)
+__Attila Pinter (adathor@prontonmail.com)__
 
 ---
 
@@ -176,12 +177,13 @@ These "best-practice" questions stem from:
 
 ---
 
-## Floating complex, integrated tech stacks boat on fragmented waters
+## Floating boats of complex, integrated tech stacks on fragmented waters
 
 * Yast2, zypper, snapper -- those are at the core of the openSUSE user experience, and quite neatly integrated with the operating systems
 * but there is a mismatch between the level of integration of these tools and the level of integration / coordination of the people maintaining them
 * not a criticism: it's bound to happen in a world where you need to specialize
 * what would help would be specific time windows or places where potential reviewers can be identified and invited to reviewing
+    * Progress, Pagure?
 
 ---
 
@@ -191,8 +193,8 @@ These "best-practice" questions stem from:
 * openSUSE docs folks are the pumps pushing know-how and best-practices towards current and future users
 * doing it is a blessing, and so is benefiting from it:
     * learning by teaching complements learning by doing
-    * relieving user support means more people for contributing in other areas
-        * check out how the docs bot allows us to avoid repetitions
+    * relieving user support means more people for contributing to other areas
+        * check out how the docs bot allows us to avoid repetitions (**demo time**)
     * writing and integrating documentation is easy to reference and take advantage of in a curriculum
     * ultimately the docs is a precious navigational instrument: it helps a community know where it's heading and helps it remember where it comes from because it embodies a particular history and tradition
-    * used in conjunction with good feedback mechanisms (like end of the year surveys ;P) it makes for one of the most beautiful place you can contribute in openSUSE.
+    * used in conjunction with good feedback mechanisms (like the _End of the Year_ surveys ;P) it makes for one of the most beautiful place you can contribute in openSUSE.
