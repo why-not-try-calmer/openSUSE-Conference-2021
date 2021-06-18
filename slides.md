@@ -11,8 +11,7 @@ highlighter: shiki
     Adrien Glauser (nycticorax@opensuse.org)
     <img border="rounded" src="ad.jpg" style="padding-top: 10px; margin-left: 120px; width:50%;" />
     </div>
-    <div style="flex: 50%">
-    Attila Pinter (adathor@opensuse.org)
+    <div style="flex: 50%">Attila Pinter (adathor@opensuse.org)
     <img border="rounded" src="attila.jpg" style="padding-top: 10px; margin-left: 120px; width:50%;" />
     </div>
 </div>
@@ -37,75 +36,63 @@ Adrien:
 
 ---
 
-# How did we get into documentation?
+# Menu
 
---
-
-Some one year ago, what got me into openSUSE was user support. There I met Attila.
-
-Life was great.
-
-Then I started doing user support myself.
-
-And life was hard.
+1. Now and how it started.
+2. Tumbleweed and Whyw wikis are at trap.
+3. Why moving docs under maintainership does not solve all problems.
+4. Saving the world.
+5. Why documentation is underrated.
 
 ---
 
-# Relieving user support
+# 1|5 A Look Back
 
---
+Started late November 2020.
 
-Good documentation takes some weight off the shoulders of user support.
+It started well: https://github.com/openSUSE/openSUSE-docs-revamped-temp/graphs/contributors
 
-__The hard life of people doing user support__
+The goal was to have the 9 first sections of the table of contents covered by the summer 2021: 
+* https://github.com/openSUSE/openSUSE-docs-revamped-temp/blob/dev/ToC.md
 
-* when you support new users, it's exhausting to repeat things over and over
-* following a single conversation can be taxing
-    * imagine following multiple in parallel!
-* even forums are not that discoverable, information is fragmented
+We have about 6 done already, but we are slightly beyond schedule.
 
-__It's just a special case of digital communication__
+Why? How lazy and incompetent can we be?
 
-* context differences between supporting and supported
-* difficult to detect and bridge in a conversation
-* folks doing user support could be doing something else instead
+<img src="lazy.gif" style="width: 60%" />
 
-Good documentation makes context explicit (*especially assumptions*) and build on it incrementally.
 
 ---
 
-# Don't Repeat Yourself and Equalize use opportunities
+# 1|5 A Look Back
 
---
+How did we get into documentation? The altruist reasons
 
-__Don't Repeat Yourself__
+Takes some weight off the shoulders of user support.
+
+Makes sure time and energy are not spent twice.
 * when someone finds oneself scratching their head in front of an already solved problem, there's a waste 
-* the time and energy spent scratching their head is spent _twice_
 
-__Equalize use opportunities__
-* the waste scales in large communities
-* it also does not help with inequalities: if you are not lucky enough to talk to the most knowledgeable people (think of separate linguistic communities), you are worse off everybody else who are lucky enough to know someone around who can help.
-
-A unique, accessible "source of truth" make everyone on the same page. And makes sure no one is left behind
+Equalizes opportunities.
+* if you are not lucky enough to talk to the most knowledgeable people (think of separate linguistic communities), you are worse off everybody else who are lucky enough to know someone around who can help.
 
 ---
 
-# Living is learning
+# 1|5 A Look Back
 
---
+How did we get into documentation? The egoistic reasons
 
-__Learning__
+Ddocumenting something tests your understanding of it.
 
-* documenting something tests your understanding of it
-* committing to documentation is a nice incentive for learning
+Committing to documentation is a nice incentive for learning.
 
 <img src="learning.jpg" style="padding-top: 10px; width: 75%" />
 
 ---
 
-# The state of the Tumbleweed documentation
+# 2|5 Tumbleweed
 
---
+The state of the Tumbleweed documentation
 
 Tumbleweed takes some understanding to be taken advantage of. What does the documentation look like for people interested in TW?
 
@@ -121,9 +108,9 @@ _No cigar_ : there is no explicit and visible maintainership, so you cannot trus
 
 ---
 
-# Why wikis are usually not great for important things that need updating
+# 2|5 Tumbleweed
 
---
+Why wikis are usually not great for important things that need updating
 
 Absence of visible maintainership means that truth is contaminated with uncertainty.
 
@@ -136,9 +123,9 @@ Wikis work just like GitHub repositories: when you can honor the implicit contra
 
 ---
 
-# Objections
+# 2|5 Tumbleweed
 
-...and replies
+Objections and replies
 
 But Wikipedia? 
 * they pay people
@@ -153,46 +140,28 @@ We embrace the fact that good docs is like a wetmarket: it's (hopefully) fresh a
 
 ---
 
-# Facts
+# 2|5 Tumbleweed
 
-Like anyone else, people interested openSUSE distributions have questions about facts.
+Matter of facts
 
 * Pick X or Y in the installer" if I want to do Z?
 * I am booting to a black screen. How to use an Nvidia + some other GPU?
 * How to get software X?
 * How to update / upgrade?
 
-Many concern TW:
-
-* How should I create snapshots and to roll back from them?
-* How should I use third-party repositories
-* How should I keep my kernel-dependent software X across Tumbleweed snapshots?
-
----
-
-# Beyond facts
-
-However, many questions go beyond factual, technical questions:
+Matter of recommendation
 
 * How often should I update?
 * How should I solve conflicts between dependencies?
 * Should I use zypper or Yast? zypper or dnf? tool X or Y?
 
-See this word, _should_ ? That's the user asking for advices, not facts! 
-These "best-practice" questions stem from:
-
-* the conceptual differences between fixed-point and rolling- release
-* the specifics of selection of tools at the core of the openSUSE experience (zypper / snapper / yast / obs)
-* questioning the defaults ("vendor stickiness", snapper config defaults, zypper config defaults -- no autorefresh)
-* the developments of software underlying or gradually integrated to a bleeding edge distribution
-* "comfort" improvements (zstd compression by default, pipewire, dnf)
-* trends and fashion
+So Documenting TW cannot do away with recommendations:
 
 ---
 
-# Documenting Tumbleweed cannot do away with recommendations:
+# 2|5 Tumbleweed 
 
---
+Takeaway
 
 The more people know, the more they're pushing their system and questioning the defaults, until their questions cannot be met only on technical facts
 
@@ -200,26 +169,7 @@ openSUSE and Tumbleweed in particular are appealing to people eager to learn and
 
 ---
 
-# The journey in a nutshell
-
---
-
-Started late November 2020.
-
-It started well: https://github.com/openSUSE/openSUSE-docs-revamped-temp/graphs/contributors
-
-The goal was to have the 9 first sections of the table of contents covered by the summer 2021: 
-* https://github.com/openSUSE/openSUSE-docs-revamped-temp/blob/dev/ToC.md
-
-We have about 6 done already, but we are slightly beyond schedule.
-
-Why? How lazy and incompetent can we be?
-
-<img src="lazy.gif" style="width: 60%" />
-
----
-
-# The docs writer's debt
+# 3|5 Maintainership does not solve it all
 
 Cherry-picked example: setting up offload to an Nvidia GPU
 
@@ -235,16 +185,18 @@ Too many sources, giving similar but slightly different tips, published at diffe
 
 ---
 
-# Meeting our own reviewing ambitions
+# 3|5 Maintainership does not solve it all
+
+Meeting our own reviewing ambitions
 
 Our reviewing process: on a new submission review
 
-1. structure & contents
-2. language, style and punctuation
-3. again structure & contents
-4. again language, style and punctuation
+1. review structure & contents
+2. review language, style and punctuation
+3. rewiew again structure & contents
+4. ewview again language, style and punctuation
 
-(1) happens entirely in-house.
+(1) is in-house.
 
 (2) and (3) need experienced and knowledgeable contributors for peer-reviewing (devs / maintainers).
 
@@ -256,9 +208,9 @@ __Problem is__: We are working on the docs at a time where there is no tradition
 
 ---
 
-# Floating boats of complex, integrated tech stacks on fragmented waters
+# 3|5 Maintainership does not solve it all
 
---
+Tech more integrated than people.
 
 Yast2, zypper, snapper -- those are at the core of the openSUSE user experience, and quite neatly integrated with the operating systems
 
@@ -271,17 +223,17 @@ What would help would be specific time windows or places where potential reviewe
 
 ---
 
-# Silver linings !
+# 4|5 Docs is underrated
 
---
+Silver linings !
 
 <img src="silverlinings.png" style="width: 75%" />
 
 ---
 
-# Good for others
+# 4|5 Docs is underrated
 
---
+Good for others
 
 Relieving user support means more people for contributing to other areas.
 
@@ -292,9 +244,9 @@ __Demo Time__
 
 ---
 
-# Good for you
+# 4|5 Docs is underrated
 
---
+Good for you
 
 It's instantly rewarding. Sometimes we add something to the docs which is used one hour later to enable a user to avoid this or that pitfall. 
 
@@ -304,8 +256,7 @@ Writing and integrating documentation is easy to reference and take advantage of
 
 ---
 
-# The Deal Nobody Could Refuse
-
+# 5|5 Saving the world
 (And how to make it happen)
 
 Imagine a world where:
@@ -318,14 +269,17 @@ Imagine a world where:
 
 ---
 
-# Conclusion
+# 5|5 Saving the world
 
---
+Conclusion
 
 The docs is a precious navigational instrument: it helps a community know where it's heading and helps it remember where it comes from because it embodies a particular history and tradition.
 
 Used in conjunction with good feedback mechanisms (like the _End of the Year_ surveys ;P) it makes for one of the most beautiful place you can contribute in openSUSE.
 
 Thanks for your attention!
+
+Our repo: https://github.com/openSUSE/openSUSE-docs-revamped-temp
+Our Telegram group chat (bridged to Matrix / Discord): https://t.me/opensuse_docs
 
 _If you want, you can read -- and even serve -- the slides at https://github.com/why-not-try-calmer/openSUSE-Conference-2021_!
