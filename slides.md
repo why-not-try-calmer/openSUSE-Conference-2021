@@ -38,11 +38,11 @@ Adrien:
 
 # Menu
 
-1. Now and how it started.
-2. Tumbleweed and Whyw wikis are at trap.
-3. Why moving docs under maintainership does not solve all problems.
-4. Saving the world.
-5. Why documentation is underrated.
+1. Now and how it started
+2. Tumbleweed and Whyw wikis are at trap
+3. Why moving docs under maintainership does not solve all problems
+4. Saving the world
+5. Why documentation is underrated
 
 ---
 
@@ -82,7 +82,7 @@ Equalizes opportunities.
 
 How did we get into documentation? The egoistic reasons
 
-Ddocumenting something tests your understanding of it.
+Documenting something tests your understanding of it.
 
 Committing to documentation is a nice incentive for learning.
 
