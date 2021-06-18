@@ -57,7 +57,7 @@ And life was hard.
 
 Good documentation takes some weight off the shoulders of people doing user support.
 
-__The hard life of people doing user supports__
+__The hard life of people doing user support__
 
 * when you support new users, it's exhausting to repeat things over and over
 * following a single conversation can be taxing
@@ -125,6 +125,10 @@ __You cannot tell apart up-to-date + factually correct and recommended parts fro
 * the user has no rational option but to try and pray (or worse: go Fedora or Ubuntu...)
 
 Wikis work just like GitHub repositories: when you can honor the implicit contract with the user that contents are curated and maintained.
+
+---
+
+# Objections & replies
 
 But Wikipedia? 
 * they pay people
@@ -195,7 +199,7 @@ We have about 6 done already, but we are slightly beyond schedule.
 
 Why? How lazy and incompetent can we be?
 
-<img src="assets/lazy.gif" style="width: 60% " />
+<img src="assets/lazy.gif" style="width: 60%" />
 
 ---
 
@@ -247,20 +251,48 @@ What would help would be specific time windows or places where potential reviewe
 
 ---
 
-# Silver linings in sight!
+# Silver linings !
 
-openSUSE Heroes are the grease between the cogs of the infrastructure.
-*   openSUSE docs folks are the pumps pushing know-how and best-practices towards current and future users.
+<img src="assets/silverlinings.png" style="width: 75%" />
 
-__Doing it is a blessing, and so is benefiting from it__:
+---
+
+## Good for others
+
+Relieving user support means more people for contributing to other areas.
+
+__Demo Time__
+* check out how the docs bot allows us to avoid repetitions
+
+<img src="assets/bot1.png" style="float: right; height: 80%" />
+
+---
+
+# Good for you
+
+It's instantly rewarding. Sometimes we add something to the docs which is used one hour later to enable a user to avoid this or that pitfall. 
 
 Learning by teaching complements learning by doing.
 
-Relieving user support means more people for contributing to other areas.
-* check out how the docs bot allows us to avoid repetitions (**demo time**)
+Writing and integrating documentation is easy to reference and take advantage of in a curriculum.
 
-Writing and integrating documentation is easy to reference and take advantage of in a curriculum
+---
 
-Ultimately the docs is a precious navigational instrument: it helps a community know where it's heading and helps it remember where it comes from because it embodies a particular history and tradition.
+# The Deal Nobody Could Refuse
+## (And how to make it happen)
+
+Imagine a world where:
+
+1. _(Reportability)_ Whenever a user finds gappy / outdated / incorrect contents, they can report it to the documentation team through a simple procedure.
+
+2. _(Waiting room)_ When the docs team needs a reviewer, they can broadcast their requirements to a "waiting room" of people interested in reviewing, who can pick up the task(s) they're interested in as they come.
+
+3. _(Traceability)_ All contributions -- be it writing the docs or reviewing it -- is easy to trace to their author(s) and to reference from a curriculum.
+
+---
+
+# Conclusion
+
+The docs is a precious navigational instrument: it helps a community know where it's heading and helps it remember where it comes from because it embodies a particular history and tradition.
 
 Used in conjunction with good feedback mechanisms (like the _End of the Year_ surveys ;P) it makes for one of the most beautiful place you can contribute in openSUSE.
