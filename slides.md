@@ -27,6 +27,8 @@ info: |
 
 # Who are we?
 
+--
+
 Attila:
 
 * lives in Indonesia
@@ -43,6 +45,8 @@ Adrien:
 
 # How did we get into documentation?
 
+--
+
 Some one year ago, what got me into openSUSE was user support. There I met Attila.
 
 Life was great.
@@ -54,6 +58,8 @@ And life was hard.
 ---
 
 # Relieving user support
+
+--
 
 Good documentation takes some weight off the shoulders of people doing user support.
 
@@ -76,6 +82,8 @@ Good documentation makes context explicit (*especially assumptions*) and build o
 
 # Don't Repeat Yourself and Equalize use opportunities
 
+--
+
 __Don't Repeat Yourself__
 * when someone finds oneself scratching their head in front of an already solved problem, there's a waste 
 * the time and energy spent scratching their head is spent _twice_
@@ -90,6 +98,8 @@ A unique, accessible "source of truth" make everyone on the same page. And makes
 
 # Living is learning
 
+--
+
 __Learning__
 
 * documenting something tests your understanding of it
@@ -100,6 +110,8 @@ __Learning__
 ---
 
 # The state of the Tumbleweed documentation
+
+--
 
 Tumbleweed takes some understanding to be taken advantage of. What does the documentation look like for people interested in TW?
 
@@ -117,6 +129,8 @@ _No cigar_ : there is no explicit and visible maintainership, so you cannot trus
 
 # Why wikis are usually not great for important things that need updating
 
+--
+
 Absence of visible maintainership means that truth is contaminated with uncertainty.
 
 How to tell up-to-date and factually correct from outdated or incorrect? 
@@ -128,7 +142,9 @@ Wikis work just like GitHub repositories: when you can honor the implicit contra
 
 ---
 
-# Objections & replies
+# Objections
+
+...and replies
 
 But Wikipedia? 
 * they pay people
@@ -160,7 +176,7 @@ Admittedly, many special cases of these concern TW:
 
 ---
 
-# Beyond facts 
+# Beyond facts
 
 However, many questions go beyond factual, technical questions:
 
@@ -182,6 +198,8 @@ These "best-practice" questions stem from:
 
 # Documenting Tumbleweed cannot do away with recommendations:
 
+--
+
 The more people know, the more they're pushing their system and questioning the defaults, until their questions cannot be met only on technical facts
 
 openSUSE and Tumbleweed in particular are appealing to people eager to learn and tinker with their system, so good docs are required to honor this implicit promise: __the risks inherent to the rolling-release model are worth taking__.
@@ -190,7 +208,11 @@ openSUSE and Tumbleweed in particular are appealing to people eager to learn and
 
 # The journey in a nutshell
 
+--
+
 Started late November 2020.
+
+It started well: https://github.com/openSUSE/openSUSE-docs-revamped-temp/graphs/contributors
 
 The goal was to have the 9 first sections of the table of contents covered by the summer 2021: 
 * https://github.com/openSUSE/openSUSE-docs-revamped-temp/blob/dev/ToC.md
@@ -206,6 +228,7 @@ Why? How lazy and incompetent can we be?
 # The docs writer's debt
 
 Cherry-picked example: setting up offload to an Nvidia GPU
+
 * Leap official documentation: https://doc.opensuse.org/documentation/leap/reference/single-html/book-reference/index.html#sec-gui-desktop-suse-prime
 * openSUSE wikis (SDB): https://en.opensuse.org/SDB:NVIDIA_SUSE_Prime
 * but also, forums: https://forums.opensuse.org/
@@ -221,6 +244,7 @@ Too many sources, giving similar but slightly different tips, published at diffe
 # Meeting our own reviewing ambitions
 
 Our reviewing process: on a new submission review
+
 1. structure & contents
 2. language, style and punctuation
 3. again structure & contents
@@ -240,6 +264,8 @@ __Problem is__: We are working on the docs at a time where there is no tradition
 
 # Floating boats of complex, integrated tech stacks on fragmented waters
 
+--
+
 Yast2, zypper, snapper -- those are at the core of the openSUSE user experience, and quite neatly integrated with the operating systems
 
 Yet there is a mismatch between the level of integration of these tools and the level of integration / coordination of the people maintaining them
@@ -253,11 +279,15 @@ What would help would be specific time windows or places where potential reviewe
 
 # Silver linings !
 
+--
+
 <img src="silverlinings.png" style="width: 75%" />
 
 ---
 
 # Good for others
+
+--
 
 Relieving user support means more people for contributing to other areas.
 
@@ -270,6 +300,8 @@ __Demo Time__
 
 # Good for you
 
+--
+
 It's instantly rewarding. Sometimes we add something to the docs which is used one hour later to enable a user to avoid this or that pitfall. 
 
 Learning by teaching complements learning by doing.
@@ -279,7 +311,8 @@ Writing and integrating documentation is easy to reference and take advantage of
 ---
 
 # The Deal Nobody Could Refuse
-## (And how to make it happen)
+
+(And how to make it happen)
 
 Imagine a world where:
 
@@ -292,6 +325,8 @@ Imagine a world where:
 ---
 
 # Conclusion
+
+--
 
 The docs is a precious navigational instrument: it helps a community know where it's heading and helps it remember where it comes from because it embodies a particular history and tradition.
 
