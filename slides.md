@@ -2,12 +2,6 @@
 theme: default
 class: 'text-center'
 highlighter: shiki
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-
 ---
 
 # openSUSE docs: Tame the beast, make it a friend
@@ -61,7 +55,7 @@ And life was hard.
 
 --
 
-Good documentation takes some weight off the shoulders of people doing user support.
+Good documentation takes some weight off the shoulders of user support.
 
 __The hard life of people doing user support__
 
@@ -76,7 +70,7 @@ __It's just a special case of digital communication__
 * difficult to detect and bridge in a conversation
 * folks doing user support could be doing something else instead
 
-Good documentation makes context explicit (*especially assumptions*) and build on it incrementally. Will show an example later
+Good documentation makes context explicit (*especially assumptions*) and build on it incrementally.
 
 ---
 
@@ -168,7 +162,7 @@ Like anyone else, people interested openSUSE distributions have questions about 
 * How to get software X?
 * How to update / upgrade?
 
-Admittedly, many special cases of these concern TW:
+Many concern TW:
 
 * How should I create snapshots and to roll back from them?
 * How should I use third-party repositories
