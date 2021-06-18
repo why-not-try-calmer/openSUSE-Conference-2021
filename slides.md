@@ -39,7 +39,7 @@ Adrien:
 # Menu
 
 1. Now and how it started
-2. Tumbleweed and Whyw wikis are at trap
+2. Tumbleweed and Whyy wikis are at trap
 3. Why moving docs under maintainership does not solve all problems
 4. Saving the world
 5. Why documentation is underrated
@@ -223,7 +223,7 @@ What would help would be specific time windows or places where potential reviewe
 
 ---
 
-# 4|5 Docs is underrated
+# 4|5 Saving the world
 
 Silver linings !
 
@@ -231,11 +231,9 @@ Silver linings !
 
 ---
 
-# 4|5 Docs is underrated
+# 4|5 Saving the world
 
-Good for others
-
-Relieving user support means more people for contributing to other areas.
+A bot.
 
 __Demo Time__
 * check out how the docs bot allows us to avoid repetitions
@@ -244,20 +242,9 @@ __Demo Time__
 
 ---
 
-# 4|5 Docs is underrated
+# 4|5 Saving the world
 
-Good for you
-
-It's instantly rewarding. Sometimes we add something to the docs which is used one hour later to enable a user to avoid this or that pitfall. 
-
-Learning by teaching complements learning by doing.
-
-Writing and integrating documentation is easy to reference and take advantage of in a curriculum.
-
----
-
-# 5|5 Saving the world
-(And how to make it happen)
+A better openSUSE.
 
 Imagine a world where:
 
@@ -269,9 +256,7 @@ Imagine a world where:
 
 ---
 
-# 5|5 Saving the world
-
-Conclusion
+# Conclusion
 
 The docs is a precious navigational instrument: it helps a community know where it's heading and helps it remember where it comes from because it embodies a particular history and tradition.
 
