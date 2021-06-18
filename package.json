@@ -6,8 +6,8 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.19.5",
-    "@slidev/theme-default": "*",
+    "@slidev/cli": "^0.19.9",
+    "@slidev/theme-default": "^0.19.1",
     "@slidev/theme-seriph": "*"
   },
   "name": "os-conf-talk"

@@ -15,11 +15,11 @@ info: |
 <div style="display: flex;">
     <div style="flex: 50%">
     Adrien Glauser (nycticorax@opensuse.org)
-    <img border="rounded" src="assets/ad.jpg" style="padding-top: 10px; margin-left: 120px; width:50%;" />
+    <img border="rounded" src="ad.jpg" style="padding-top: 10px; margin-left: 120px; width:50%;" />
     </div>
     <div style="flex: 50%">
     Attila Pinter (adathor@opensuse.org)
-    <img border="rounded" src="assets/attila.jpg" style="padding-top: 10px; margin-left: 120px; width:50%;" />
+    <img border="rounded" src="attila.jpg" style="padding-top: 10px; margin-left: 120px; width:50%;" />
     </div>
 </div>
 
@@ -95,7 +95,7 @@ __Learning__
 * documenting something tests your understanding of it
 * committing to documentation is a nice incentive for learning
 
-<img src="assets/learning.jpg" style="padding-top: 10px; width: 75%" />
+<img src="learning.jpg" style="padding-top: 10px; width: 75%" />
 
 ---
 
@@ -199,7 +199,7 @@ We have about 6 done already, but we are slightly beyond schedule.
 
 Why? How lazy and incompetent can we be?
 
-<img src="assets/lazy.gif" style="width: 60%" />
+<img src="lazy.gif" style="width: 60%" />
 
 ---
 
@@ -253,18 +253,18 @@ What would help would be specific time windows or places where potential reviewe
 
 # Silver linings !
 
-<img src="assets/silverlinings.png" style="width: 75%" />
+<img src="silverlinings.png" style="width: 75%" />
 
 ---
 
-## Good for others
+# Good for others
 
 Relieving user support means more people for contributing to other areas.
 
 __Demo Time__
 * check out how the docs bot allows us to avoid repetitions
 
-<img src="assets/bot1.png" style="float: right; height: 80%" />
+<img src="bot1.png" style="float: right; height: 80%" />
 
 ---
 
