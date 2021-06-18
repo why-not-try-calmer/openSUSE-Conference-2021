@@ -10,5 +10,8 @@
     "@slidev/theme-default": "^0.19.1",
     "@slidev/theme-seriph": "*"
   },
-  "name": "os-conf-talk"
+  "name": "os-conf-talk",
+  "devDependencies": {
+    "playwright-chromium": "^1.12.2"
+  }
 }
