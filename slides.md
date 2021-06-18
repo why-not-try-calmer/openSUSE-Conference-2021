@@ -296,3 +296,7 @@ Imagine a world where:
 The docs is a precious navigational instrument: it helps a community know where it's heading and helps it remember where it comes from because it embodies a particular history and tradition.
 
 Used in conjunction with good feedback mechanisms (like the _End of the Year_ surveys ;P) it makes for one of the most beautiful place you can contribute in openSUSE.
+
+Thanks for your attention!
+
+_If you want, you can read -- and even serve -- the slides at https://github.com/why-not-try-calmer/openSUSE-Conference-2021_!
