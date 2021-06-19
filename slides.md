@@ -256,6 +256,13 @@ Imagine a world where:
 
 ---
 
+# 5|5 Why documentation is underrated
+
+--
+
+(Allow me to skip this part so that stay within the time constraints)
+
+---
 # Conclusion
 
 The docs is a precious navigational instrument: it helps a community know where it's heading and helps it remember where it comes from because it embodies a particular history and tradition.
