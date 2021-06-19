@@ -9,10 +9,10 @@ highlighter: shiki
 <div style="display: flex;">
     <div style="flex: 50%">
     Adrien Glauser (nycticorax@opensuse.org)
-    <img border="rounded" src="ad.jpg" style="padding-top: 10px; margin-left: 120px; width:50%;" />
+    <img border="rounded" src="/ad.jpg" style="padding-top: 10px; margin-left: 120px; width:50%;" />
     </div>
     <div style="flex: 50%">Attila Pinter (adathor@opensuse.org)
-    <img border="rounded" src="attila.jpg" style="padding-top: 10px; margin-left: 120px; width:50%;" />
+    <img border="rounded" src="/attila.jpg" style="padding-top: 10px; margin-left: 120px; width:50%;" />
     </div>
 </div>
 
@@ -59,7 +59,7 @@ We have about 6 done already, but we are slightly beyond schedule.
 
 Why? How lazy and incompetent can we be?
 
-<img src="lazy.gif" style="width: 60%" />
+<img src="/lazy.gif" style="width: 60%" />
 
 
 ---
@@ -86,7 +86,7 @@ Documenting something tests your understanding of it.
 
 Committing to documentation is a nice incentive for learning.
 
-<img src="learning.jpg" style="padding-top: 10px; width: 75%" />
+<img src="/learning.jpg" style="padding-top: 10px; width: 75%" />
 
 ---
 
@@ -227,7 +227,7 @@ What would help would be specific time windows or places where potential reviewe
 
 Silver linings !
 
-<img src="silverlinings.png" style="width: 75%" />
+<img src="/silverlinings.png" style="width: 75%" />
 
 ---
 
@@ -238,7 +238,7 @@ A bot.
 __Demo Time__
 * check out how the docs bot allows us to avoid repetitions
 
-<img src="bot1.png" style="float: right; height: 80%" />
+<img src="/bot1.png" style="float: right; height: 80%" />
 
 ---
 
